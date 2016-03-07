@@ -1,0 +1,66 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+.email {
+  height: 1.2em;
+  border-radius: 4px;
+  border: #ccc 1px solid;
+  margin: 1px;
+}
+.email .container {
+  height: 1em;
+  padding: 0;
+  display: inline;
+}
+.email .text {
+  font-family: sans-serif;
+  display: inline;
+  font-size: .8em;
+  margin: 0;
+  float: left;
+  margin: 2px;
+}
+.email .from, .email .subject {
+  font-weight: bold;
+  width: 150px;
+}
+.email .checkbox{
+  width: 13px;
+  height: 13px;
+  border: #aaa 1px solid;
+  border-radius: 1px;
+  background: #eee;
+  display:block;
+}
+.email .preview {
+  color: #777;
+}
+.sidebar .label {
+  height: 15px;
+  border: #fff 1px solid;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  margin: 2px;
+  margin-right: -1px;
+  margin-left: 10px;
+  font-size: .8em;
+  padding-top: 1px;
+  padding-left: 5px;
+}  
+.sidebar, .mainview {
+  height: 100%;
+  margin: 0px;
+}
+.sidebar {
+  width: 100px;
+  background: #ccc;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.mainView {
+  margin-right: 0;
+  width: auto;
+  margin-left:100px;
+}
